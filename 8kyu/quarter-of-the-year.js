@@ -6,12 +6,12 @@
 
 //MY SOLUTIONS
 
-const quarterOf = (month) => {
-    return Math.ceil(month/3)
-};
+// let quarterOf = (month) => {
+//     return Math.ceil(month/3)
+// };
 
 //Alternative
-const quarterOf = (month) => {
+let quarterOf = (month) => {
     if(month<4){
       return 1;
     } else if(3<month && month<7){
